@@ -26,9 +26,10 @@ To maximize academic rigor, demonstrate advanced database principles, and delive
                                    │  ACID Transactions & Analytical Views
 ┌──────────────────────────────────▼─────────────────────────────────────┐
 │                     TIER 3: DATABASE (DBMS)                            │
-│   • SQLite3 (Zero-setup local engine) • PostgreSQL/MySQL SQL Scripts   │
-│   • 3NF Relational Schema            • Automated SQL Triggers          │
+│   • PostgreSQL (Primary ORDBMS Engine) • pgAdmin & psql CLI Support   │
+│   • PL/pgSQL Triggers & Procedures   • 3NF Relational Schema           │
 │   • SQL Window Functions (RANK, etc) • Check & Referential Constraints │
+│   • Portable ANSI-SQL Scripts        • SQLite Fallback for Zero-Setup  │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -40,10 +41,10 @@ To maximize academic rigor, demonstrate advanced database principles, and delive
 
 | Component | Choice | Academic & Technical Justification |
 |---|---|---|
-| **Database Engine** | **SQLite3** (with dual PostgreSQL/MySQL compatible scripts) | **1. Frictionless Evaluation:** Requires zero server installation, no daemon services, and no login credentials, allowing professors/examiners to launch the project instantly.<br>**2. Full Standards Compliance:** Supports complete ACID transactions, multi-table joins, CHECK constraints, FOREIGN KEY cascades, triggers, and window functions.<br>**3. Dual Portability:** All schemas are authored in clean, standard ANSI-SQL scripts (`schema.sql`, `seed_data.sql`, `triggers.sql`, `views.sql`), which can be executed directly in MySQL Workbench or pgAdmin if required during viva. |
+| **Database Engine** | **PostgreSQL** (Primary ORDBMS)<br>*(with SQLite fallback)* | **1. Academic Gold Standard:** PostgreSQL is the industry-standard Object-Relational DBMS widely favored in university DBMS curricula for its strict standards compliance and robust SQL features.<br>**2. Advanced PL/pgSQL Procedural Engine:** Native support for rich `PL/pgSQL` functions and triggers (`CREATE FUNCTION ... RETURNS TRIGGER AS $$ ... $$ LANGUAGE plpgsql;`).<br>**3. Complex Analytical Window Functions:** Native, highly optimized support for `DENSE_RANK() OVER (PARTITION BY ... ORDER BY ...)`.<br>**4. Enterprise Constraints:** Strict domain constraints (`CHECK`), custom ENUM types, and referential integrity (`ON DELETE CASCADE` / `ON DELETE RESTRICT`).<br>**5. Portable & Flexible:** Provides clean `.sql` scripts executable directly in `psql` or pgAdmin, alongside a zero-install SQLite fallback mode for quick offline demos. |
 | **Relational Model** | **3rd Normal Form (3NF)** | Eliminates update, insertion, and deletion anomalies. Separate entities for `STUDENT`, `ROOM`, `POLICY_RULE`, `ALLOCATION`, `ALLOCATION_HISTORY`, `GRIEVANCE`, and `AUDIT_ANOMALY`. |
-| **Advanced Features** | **SQL Triggers & Window Functions** | • `trg_capacity_guard`: Enforces room capacity limits before insert/update.<br>• `trg_log_allocation_history`: Automatically logs all allocation changes to history.<br>• Window functions (`DENSE_RANK() OVER (PARTITION BY category ORDER BY merit_score DESC)`): Computes category-wise rankings directly inside the database engine. |
-| **Query Strategy** | **Raw Parameterized SQL** | Instead of an opaque Object-Relational Mapper (ORM) that hides queries, the backend uses **raw SQL queries**. This makes query performance, joins, subqueries, and `EXPLAIN QUERY PLAN` directly inspectable and defendable during lab evaluations. |
+| **Advanced Features** | **PL/pgSQL Triggers & Window Functions** | • `trg_capacity_guard`: Enforces room capacity limits before insert/update.<br>• `trg_log_allocation_history`: Automatically logs all allocation changes to history.<br>• Window functions (`DENSE_RANK() OVER (PARTITION BY category ORDER BY merit_score DESC)`): Computes category-wise rankings directly inside the database engine. |
+| **Query Strategy** | **Raw Parameterized SQL** | Instead of an opaque Object-Relational Mapper (ORM) that hides queries, the backend executes **raw, parameterized SQL queries**. This makes query performance, joins, subqueries, and `EXPLAIN ANALYZE` directly inspectable and defendable during lab evaluations. |
 
 ---
 
@@ -51,7 +52,7 @@ To maximize academic rigor, demonstrate advanced database principles, and delive
 
 | Component | Choice | Academic & Technical Justification |
 |---|---|---|
-| **Programming Language** | **Python 3.10+** | Industry-standard language for data manipulation, mathematical formulations, and scientific auditing. Native `sqlite3` driver included in the standard library. |
+| **Programming Language** | **Python 3.10+** | Industry-standard language for data manipulation, mathematical formulations, and scientific auditing. Uses `psycopg2-binary` for robust PostgreSQL connections, with built-in `sqlite3` for zero-install fallback. |
 | **Web API Framework** | **FastAPI** (or Flask) | • Lightweight, high-throughput asynchronous REST API.<br>• Automatically generates interactive OpenAPI/Swagger documentation at `/docs`, enabling evaluators to test individual SQL endpoints directly in the browser.<br>• Clean separation of concern: routes serve only pure JSON data to the frontend. |
 | **Auditing & Fairness Engine** | **Custom Python Fairness Logic** | Computes mathematical disparity metrics: Disparate Impact Ratio, Priority Inversion Frequency, Demographic Parity Gap, and Institutional Fairness Score (0–100%). |
 | **Optimization Solver** | **Algorithmic Re-allocator** | Implements a greedy/linear priority assignment algorithm that ingests the audited data, applies the strict policy criteria, and generates a mathematically optimal allocation for side-by-side comparison. |

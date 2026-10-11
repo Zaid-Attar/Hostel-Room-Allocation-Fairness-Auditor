@@ -273,14 +273,14 @@ gantt
 
 ### Milestone Details
 
-#### Milestone 1: Relational Database Setup & Seed Data
-- Create `database/schema.sql` with all 8 entities, foreign keys, and check constraints.
-- Create `database/triggers.sql` for capacity checks and audit logs.
-- Create `database/views.sql` with window functions for ranking and inversion detection.
+#### Milestone 1: Relational Database Setup & Seed Data (PostgreSQL)
+- Create `database/schema.sql` with PostgreSQL DDL for all 8 entities, foreign keys, ENUMs/CHECK constraints, and indexes.
+- Create `database/triggers.sql` containing PL/pgSQL triggers (`trg_capacity_guard` and `trg_log_allocation_history`).
+- Create `database/views.sql` with PostgreSQL window functions for ranking and inversion detection.
 - Create `database/seed_data.sql` with ~100 realistic student records, 40 rooms across 2 hostel blocks, active policies, sample grievances, and pre-programmed anomalies (subtle priority inversions and quota discrepancies) for auditing demonstrations.
 
 #### Milestone 2: Backend API & Auditing Service
-- Setup lightweight Python backend (`app.py`) with zero external DB dependencies using SQLite/PostgreSQL compatibility.
+- Setup Python backend (`app.py`) with PostgreSQL connection pooling (`psycopg2-binary`) and automatic SQLite fallback for portable offline testing.
 - Expose REST API endpoints:
   - `GET /api/kpi-summary`: High-level fairness metrics.
   - `GET /api/anomalies`: List of flagged priority inversions and quota breaches.

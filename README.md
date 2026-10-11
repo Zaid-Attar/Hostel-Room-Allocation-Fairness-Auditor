@@ -14,7 +14,7 @@
 The **Hostel Room Allocation Fairness Auditor** is an auditing and visual analytics system designed to detect bias, priority inversions, and quota violations in hostel room allocations, comparing audited decisions against institutional policies and computing mathematically optimal fair re-allocations.
 
 ## Core Focus Areas
-- **DBMS:** 3NF Relational Schema, Relational Integrity & Domain Constraints, Automated Triggers (`ALLOCATION_HISTORY`, Room Capacity Guard), Complex Analytical Views with Window Functions (`RANK()`, `PARTITION BY`), and ACID-compliant transaction execution.
+- **DBMS (PostgreSQL):** 3NF Relational Schema, Relational Integrity & Domain Constraints, Automated PL/pgSQL Triggers (`ALLOCATION_HISTORY`, Room Capacity Guard), Complex Analytical Views with Window Functions (`RANK()`, `PARTITION BY`), and ACID-compliant transaction execution.
 - **Data Visualization (DV):** Interactive Merit vs. Distance Anomaly Scatter Matrix (quadrant analysis), Category Quota Compliance Grouped Bar Charts, Rank Inversion Ladder (Bump Chart), Floor/Block Equity Heatmap, and Before-vs-After Optimal Re-allocation visual simulator.
 
 ---
