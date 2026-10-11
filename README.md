@@ -21,3 +21,4 @@ The **Hostel Room Allocation Fairness Auditor** is an auditing and visual analyt
 
 ## Documentation
 - Detailed Implementation Plan: [IMPLEMENTATION_PLAN.md](file:///c:/Users/diaza/Desktop/Code/Hostel-Room-Allocation-Fairness-Auditor/IMPLEMENTATION_PLAN.md)
+- Technology Stack Architecture: [TechStack.md](file:///c:/Users/diaza/Desktop/Code/Hostel-Room-Allocation-Fairness-Auditor/TechStack.md)
