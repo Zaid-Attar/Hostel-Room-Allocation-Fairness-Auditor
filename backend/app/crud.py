@@ -3,7 +3,7 @@ Database CRUD operations for Students, Rooms, Allocations, Policy Rules, and Aud
 Uses SQLAlchemy session and parameterized SQL queries to maintain clarity and inspectability.
 """
 
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Tuple
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 import pandas as pd

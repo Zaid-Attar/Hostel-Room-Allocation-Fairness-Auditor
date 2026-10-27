@@ -46,7 +46,7 @@ def run_loader():
     for f in [students_file, rooms_file, alloc_file]:
         if not f.exists():
             print(f"[FATAL ERROR] Required input file not found: {f}")
-            print("Please run python backend/scripts/generate_data.py first.")
+            print("Please ensure students.csv, rooms.csv, and allocation.csv exist in the data/ directory.")
             sys.exit(1)
 
     print(f"Reading CSVs from: {DATA_DIR}")

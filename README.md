@@ -97,9 +97,6 @@ cp .env.example .env
 # Install Python requirements
 pip install -r backend/requirements.txt
 
-# (Optional) Regenerate the reproducible synthetic dataset (300 students, 300 beds)
-python backend/scripts/generate_data.py
-
 # Run validation checks & load database tables
 python backend/scripts/load_csv.py
 ```

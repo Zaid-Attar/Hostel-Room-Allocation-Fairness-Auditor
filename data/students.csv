@@ -73,7 +73,7 @@ S_M_109,Harsh Deshmukh,M,1,8.11,General,176,0
 S_M_127,Omkar Kulkarni,M,3,7.59,ST,67,0
 S_F_081,Ishita Verma,F,3,7.3,OBC,475,0
 S_F_044,Tanvi Bhure,F,2,8.69,OBC,1500,0
-S_M_130,Arjun Attar,M,2,9.58,General,232,0
+S_M_130,Arjun Gaikwad,M,2,9.58,General,232,0
 S_F_133,Pooja Chilvery,F,1,8.07,General,46,0
 S_M_083,Harsh Reddy,M,4,5.0,EWS,299,0
 S_M_085,Tanmay Kulkarni,M,1,7.03,General,137,0
@@ -95,7 +95,7 @@ S_M_069,Varun Shinde,M,4,7.86,General,83,0
 S_F_075,Sayali Nair,F,3,9.0,General,153,0
 S_M_038,Chinmay Kulkarni,M,3,6.79,General,450,0
 S_M_017,Kunal Bane,M,3,8.47,SC,253,0
-S_F_030,Sayali Attar,F,4,7.63,EWS,240,0
+S_F_030,Sayali Gaikwad,F,4,7.63,EWS,240,0
 S_M_148,Nikhil Nair,M,1,5.97,General,268,0
 S_F_125,Bhakti Sharma,F,1,7.98,General,370,0
 S_M_068,Rohan Chavan,M,2,6.88,General,432,0
@@ -166,7 +166,7 @@ S_M_036,Hrishikesh Sharma,M,3,6.18,General,76,0
 S_M_029,Hrishikesh Joshi,M,2,8.91,General,646,0
 S_M_143,Siddharth Nair,M,1,7.17,General,650,0
 S_F_135,Riya Tiwari,F,1,7.53,SC,108,0
-S_F_105,Sanika Attar,F,4,7.04,General,394,0
+S_F_105,Sanika Gaikwad,F,4,7.04,General,394,0
 S_F_021,Vaishnavi Nair,F,1,7.45,OBC,76,0
 S_M_052,Chinmay Jadhav,M,1,8.7,SC,171,0
 S_M_096,Rohan Nair,M,3,6.38,OBC,684,0
@@ -178,7 +178,7 @@ S_F_095,Vaishnavi Deshmukh,F,1,7.45,General,80,0
 S_M_137,Ayush Reddy,M,2,10.0,General,532,0
 S_M_027,Aarav Sharma,M,2,6.93,EWS,112,0
 S_F_144,Ananya Shinde,F,4,6.33,General,1013,0
-S_M_142,Kunal Attar,M,3,9.06,SC,179,0
+S_M_142,Kunal Gaikwad,M,3,9.06,SC,179,0
 S_F_051,Isha Sharma,F,3,7.74,ST,721,0
 S_M_001,Rahul Kadam,M,1,6.39,General,718,1
 S_F_119,Sanika Shinde,F,4,7.25,General,968,0
@@ -188,7 +188,7 @@ S_F_110,Krutika Gupta,F,2,8.43,General,382,0
 S_F_106,Sanika Shinde,F,3,6.91,OBC,351,0
 S_F_022,Mrunal Shinde,F,4,6.38,EWS,73,0
 S_M_099,Vikram Patil,M,2,8.56,General,835,0
-S_M_037,Vikram Attar,M,1,7.79,General,293,0
+S_M_037,Vikram Gaikwad,M,1,7.79,General,293,0
 S_M_062,Digvijay Bhure,M,4,6.57,ST,120,0
 S_F_001,Vaishnavi Chavan,F,3,7.05,General,648,1
 S_F_087,Vaishnavi Kadam,F,3,8.88,OBC,289,0
@@ -205,19 +205,19 @@ S_M_033,Sameer Iyer,M,1,9.37,General,1424,0
 S_F_055,Pooja Patil,F,4,8.32,OBC,120,0
 S_F_013,Ankita Iyer,F,1,7.16,General,288,0
 S_F_060,Srushti Mehta,F,4,6.8,EWS,499,0
-S_F_136,Krutika Attar,F,4,6.73,OBC,281,0
+S_F_136,Krutika Gaikwad,F,4,6.73,OBC,281,0
 S_M_139,Ayush Shinde,M,1,7.39,General,133,0
 S_M_063,Gaurav Chavan,M,3,8.66,General,40,0
 S_M_136,Chinmay Verma,M,2,7.07,General,228,0
 S_M_129,Kunal Chavan,M,2,7.79,ST,189,0
-S_F_141,Aditi Attar,F,3,6.75,General,118,0
+S_F_141,Aditi Gaikwad,F,3,6.75,General,118,0
 S_M_009,Vikram Nair,M,4,6.17,SC,996,0
 S_M_071,Sameer Jadhav,M,4,6.83,ST,211,0
 S_F_115,Divya Kulkarni,F,3,7.95,OBC,288,0
 S_M_065,Hrishikesh Pawar,M,2,9.09,OBC,1008,0
 S_M_045,Harsh Mehta,M,2,7.05,ST,148,0
 S_F_130,Sanika Rao,F,1,6.26,General,374,0
-S_F_007,Radhika Attar,F,3,7.26,ST,635,0
+S_F_007,Radhika Gaikwad,F,3,7.26,ST,635,0
 S_M_041,Manish Verma,M,4,7.49,General,165,0
 S_M_124,Hrishikesh Bhure,M,3,7.51,OBC,93,0
 S_F_126,Krutika Nair,F,3,5.22,SC,379,0
@@ -230,7 +230,7 @@ S_M_082,Arjun Chilvery,M,3,7.08,OBC,109,0
 S_F_058,Ishita Kadam,F,3,7.78,General,140,0
 S_F_063,Divya Kadam,F,1,7.96,General,723,0
 S_M_040,Aarav More,M,1,6.68,General,122,0
-S_F_091,Sneha Attar,F,3,9.16,General,266,0
+S_F_091,Sneha Gaikwad,F,3,9.16,General,266,0
 S_F_142,Kavya Tiwari,F,4,8.29,OBC,262,0
 S_F_109,Priya Bhosale,F,4,5.89,EWS,503,0
 S_F_050,Aditi Kulkarni,F,2,6.44,OBC,306,0
@@ -252,7 +252,7 @@ S_M_004,Gaurav More,M,1,9.04,General,352,1
 S_M_106,Sameer Bhure,M,1,7.52,General,59,0
 S_M_054,Ayush Bane,M,3,8.28,General,64,0
 S_M_134,Ayush Tiwari,M,3,8.64,EWS,503,0
-S_M_002,Tanmay Attar,M,3,7.82,General,1241,1
+S_M_002,Tanmay Gaikwad,M,3,7.82,General,1241,1
 S_M_132,Manish Rao,M,4,9.18,OBC,58,0
 S_M_104,Chinmay More,M,3,7.42,General,163,0
 S_M_050,Akshay Mehta,M,4,10.0,General,179,0
@@ -264,7 +264,7 @@ S_M_053,Kunal Sharma,M,4,6.96,OBC,660,0
 S_F_092,Meera Joshi,F,1,5.96,General,50,0
 S_M_014,Aditya Sharma,M,3,6.7,EWS,383,0
 S_M_089,Chinmay Jadhav,M,3,6.85,General,65,0
-S_F_017,Neha Attar,F,2,8.21,OBC,652,0
+S_F_017,Neha Gaikwad,F,2,8.21,OBC,652,0
 S_F_145,Srushti Iyer,F,3,7.95,OBC,188,0
 S_M_135,Kunal Iyer,M,3,7.15,OBC,506,0
 S_F_138,Sakshi Deshmukh,F,4,9.45,OBC,507,0
