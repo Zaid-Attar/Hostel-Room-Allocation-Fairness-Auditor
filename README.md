@@ -3,13 +3,23 @@
 **Academic Mini-Project for Database Management Systems (DBMS) & Data Visualization (DV)**  
 **COEP Technological University (A.Y. 2025-26)**  
 
-### Team Members:
-1. **Zaid Attar** – 612415015
-2. **Arpit Tiwari** – 612415012
-3. **Trushant Chilvery** – 612415040
-4. **Aryan Bhure** – 612415030
+### Team Members & Module Distribution:
+
+| Member | MIS ID | Project Part | Core Responsibilities |
+| :--- | :--- | :--- | :--- |
+| **Zaid Attar** | 612415015 | **Part 1: Relational Database & DBMS Core** | 3NF Schema design, DDL constraints (`UNIQUE(room_id)`), ACID transaction handling, and SQL CRUD queries. |
+| **Arpit Tiwari** | 612415012 | **Part 2: Fairness Audit & Statistical Engine** | Multi-criteria priority scoring, room ranking, Spearman rank correlation ($\rho$), and line-jumping anomaly detection. |
+| **Trushant Chilvery** | 612415040 | **Part 3: FastAPI Backend & REST API Service** | REST API endpoints, Pydantic request validation, live query overrides, SQLite fallback, and CSV export. |
+| **Aryan Bhure** | 612415030 | **Part 4: Frontend & Visual Analytics Dashboard** | React dashboard, Recharts scatter plot with ideal line, demographic bias breakdown, policy sliders, and explainability drawer. |
 
 ---
+
+### Project Architecture (4 Core Parts):
+1. **Part 1: Relational Database Layer (DBMS)** — 5 normalized tables in 3NF, declarative integrity constraints, foreign keys (`ON DELETE CASCADE`), and ACID transactional consistency.
+2. **Part 2: Fairness Audit & Statistical Engine** — Algorithmic multi-criteria priority scoring, room ranking, PwD accessibility checks, and Spearman rank correlation ($\rho$).
+3. **Part 3: REST API Service (FastAPI)** — High-performance REST endpoints for live dynamic auditing, individual explainability, and database CRUD operations.
+4. **Part 4: Visual Analytics Dashboard (React + Recharts)** — Real-time interactive UI with policy sliders, hero scatter plot, demographic bias breakdown, and line-jumping accountability table.
+
 
 ## 1. Overview & Problem Statement
 
