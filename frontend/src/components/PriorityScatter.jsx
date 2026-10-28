@@ -23,7 +23,7 @@ function CustomTooltip({ active, payload }) {
         <div className={`tooltip-status status-${data.status.toLowerCase()}`}>
           Status: {data.status} {data.hard_rule_violation ? '(Accessibility Breach)' : ''}
         </div>
-        <div className="tooltip-hint">Click point to view full explanation</div>
+        {/* <div className="tooltip-hint">Click point to view full explanation</div> */}
       </div>
     );
   }
@@ -55,7 +55,7 @@ export default function PriorityScatter({ students = [], onSelectStudent }) {
 
         {/* Legend in top-right corner with inspection badge placed above it */}
         <div className="chart-corner-box">
-          <span className="chart-badge">💡 Click any point to inspect</span>
+          {/* <span className="chart-badge">💡 Click any point to inspect</span> */}
           <div className="corner-legend">
             <div className="legend-row">
               <span className="legend-sym sym-fair">●</span>
